@@ -41,7 +41,6 @@ img {
 #button-gradient {
     background-color: aliceblue;
     border:none;
-    color:chartreuse;
     padding: 10px 30px;
     text-align: center;
     font-size: 16px;
@@ -50,9 +49,16 @@ img {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     width: 100px;
-    
 }
 
 a {
     text-decoration: none;
+    color:black;
+}
+
+.images img {
+    display:inline-block;
+    margin: 10px;
+    text-align: center;
+    
 }
