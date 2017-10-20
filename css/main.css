@@ -14,6 +14,9 @@ img {
     background: transparent;
     display: block;
     margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 1000px;
 }
 
 #bigBox {
@@ -60,5 +63,4 @@ a {
     display:inline-block;
     margin: 10px;
     text-align: center;
-    
 }
